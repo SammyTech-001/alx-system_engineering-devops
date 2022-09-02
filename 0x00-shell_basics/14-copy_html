@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -i .html dir
+cp -i /tmp/file_0_.html /tmp/file_0_.html 
