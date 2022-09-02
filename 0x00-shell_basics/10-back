@@ -1,2 +1,2 @@
 #!/bin/bash
-chdir /var/
+source ./var
