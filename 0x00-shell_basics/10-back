@@ -1,2 +1,3 @@
 #!/bin/bash
-ch var/ 
+cd var/
+pwd
