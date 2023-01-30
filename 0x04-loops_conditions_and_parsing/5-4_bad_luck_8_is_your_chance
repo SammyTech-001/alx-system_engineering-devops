@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Displays 'Best School' for all iteration
+# Displays 'bad luck' on the 4th loop iteration
+# Displays 'goo luck' for the 8th loop iteration
+
+index=0
+
+while [ $index -lt 10 ]
+do
+	if [ $index -eq 3 ]
+	then
+		echo "bad luck"
+	elif [ $index -eq 7 ]
+	then 
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	(( index++ ))
+done
